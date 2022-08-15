@@ -154,6 +154,23 @@ static const map<job_type, job_def> job_data =
     { { SK_CONJURATIONS, 4 }, { SK_SPELLCASTING, 2 }, { SK_DODGING, 2 },
       { SK_STEALTH, 2 }, },
 } },
+    
+{ JOB_DRUID, {
+    "Du", "Druid",
+    0, 7, 5,
+    { SP_DEEP_ELF, SP_SPRIGGAN, SP_VINE_STALKER, SP_NAGA, SP_DEMIGOD,
+      SP_OCTOPODE, },
+    {
+        SPELL_SUMMON_SMALL_MAMMAL,
+        SPELL_POISONOUS_VAPOURS,
+        SPELL_CALL_CANINE_FAMILIAR,
+        SPELL_SUMMON_FOREST,
+    },
+    { "robe", "potion of magic" },
+    WCHOICE_NONE,
+    { { SK_SUMMONINGS, 3 }, { SK_POISON_MAGIC, 1 }, { SK_SPELLCASTING, 2 }, { SK_DODGING, 2 },
+      { SK_STEALTH, 2 }, },
+} },
 
 { JOB_EARTH_ELEMENTALIST, {
     "EE", "Earth Elementalist",
